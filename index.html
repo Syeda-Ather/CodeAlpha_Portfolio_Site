@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">Syeda-Ather-Fatima</div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <nav class="nav-links" id="navLinks">
+            <a href="#home" onclick="toggleMenu()">Home</a>
+            <a href="#about" onclick="toggleMenu()">About</a>
+            <a href="#skills" onclick="toggleMenu()">Skills</a>
+            <a href="#projects" onclick="toggleMenu()">Projects</a>
+            <a href="#experience" onclick="toggleMenu()">Experience</a>
+            <a href="#rewards" onclick="toggleMenu()">Rewards</a>
+
+            <a href="#contact" onclick="toggleMenu()">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+           <div class="open-to-work">
+            <span class="pulse-dot"></span> Open to Work
+        </div>
+            <h1>Hi, I'm <span class="highlight">Syeda Ather Fatima</span></h1>
+            <p>Machine Learning Enthusiast || Front-End Developer</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+
+  <section id="about" class="about-skills-section">
+    <div class="about-skills-container">
+
+        <div class="about-content">
+            <h2>About Me</h2>
+            <span class="subtitle">A little bit about who I am</span>
+            
+            <p>I'm a highly motivated Information Technology graduate with strong interest in ML and FrontEnd Development.
+            I've developed a keen interest in building data driven models to solve real time problems. I'm actively
+            seeking for roles and opportunities in the field of machine learning and FrontEnd development to continue
+            growing as a tech professional.</p>
+            
+           <a href="resume.pdf" download="Syeda_Ather_Fatima_Resume.pdf" class="btn resume-btn">
+    Download Resume
+</a>
+        </div>
+
+        <div class="skills-content">
+            <h3 class="skills-heading">SKILLS</h3>
+            <div class="skills-grid">
+                <div class="skill-card"><span class="dot"></span> HTML5 & CSS3</div>
+                <div class="skill-card"><span class="dot"></span> JavaScript</div>
+                <div class="skill-card"><span class="dot"></span> Python</div>
+                <div class="skill-card"><span class="dot"></span> Machine Learning</div>
+                <div class="skill-card"><span class="dot"></span> Responsive Design</div>
+                <div class="skill-card"><span class="dot"></span> GitHub</div>
+                <div class="skill-card"><span class="dot"></span> MS Word</div>
+                <div class="skill-card"><span class="dot"></span> Data Preprocessing </div>
+                <div class="skill-card"><span class="dot"></span> Classification</div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="projects" class="projects-section">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Web basaed diet recommendation system</h3>
+                <p>A machine learnnig based project focuses on building, trainig and optimizing Random Forrest model to
+                    generate personalized diet plans for users. </p>
+                <span class="tech-used">Python | Scikit-Learn | Numpy | Pandas | Random Forrest | Cross
+                    Validation</span>
+            </div>
+            <div class="project-card">
+                <h3>Interactive Image Gallery</h3>
+                <p>A responsive image gallery containig category filters aur next/prev lightbox features.</p>
+                <span class="tech-used">HTML | CSS | JS</span>
+            </div>
+            <div class="project-card">
+                <h3>Smart Calculator</h3>
+                <p>A modern calculator that support error handling, basic mathametics and keyboard support.</p>
+                <span class="tech-used">HTML | CSS | JS</span>
+            </div>
+            <div class="project-card">
+                <h3>House Price Prediction</h3>
+                <p>Machine Learning based project focuses on predicting house prices using machnine learning techniques.
+                </p>
+                <span class="tech-used">Python | Scikit-Learn | XGBoost</span>
+            </div>
+            <div class="project-card">
+                <h3>MNIST Digit Classification</h3>
+                <p>The goal of this project is to build a model that can accurately identify handwritten digits from
+                    image data. The MNIST dataset contains grayscale images of digits, and a neural network is trained
+                    to classify them.
+                </p>
+                <span class="tech-used">Python | Tensorflow | Neural Network</span>
+            </div>
+            <div class="project-card">
+                <h3>Spam Email Classification</h3>
+                <p>The objective of this project is to build a text classification model for spam detection.</p>
+                <span class="tech-used">Python | Multinomial Naive Bayes | TF-IDF Vectorization</span>
+            </div>
+            <div class="project-card">
+                <h3>Iris Flower Classification</h3>
+                <p>ML based project that is used to build a classification model that can accurately identify the
+                    species of iris flowers.
+                </p>
+                <span class="tech-used">Python | Scikit-Learn | Matplotlib | Random Forest Classifier</span>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="experience" class="experience-section">
+    <h2>Experience</h2>
+    <div class="experience-grid">
+        
+        <div class="experience-card">
+            <h3>ML Intern</h3>
+            <h4 class="company">Arch Technologies</h4>
+            <p>Successfully completed a 2-month internship focusing on practical machine learning applications. Gained hands-on experience in data preprocessing, model training, and performance evaluation.</p>
+        </div>
+
+        <div class="experience-card">
+            <h3>Python Developer Intern</h3>
+            <h4 class="company">Oasis Infobyte</h4>
+            <p>Completed an internship in the Python programming domain. Through this opportunity, I enhanced my skills in the Python programming language and learned its implementation in real-world apps.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="rewards" class="rewards-section">
+    <h2>Rewards & Honors</h2>
+    <div class="rewards-grid">
+        
+        <div class="rewards-card">
+            <span class="reward-badge">🏆 Merit Scholarship</span>
+            <h3>CM Honahar Scholarship</h3>
+            <p>Awarded the prestigious merit-based scholarship by the Chief Minister of Punjab for outstanding academic excellence. This recognition supported my educational journey and motivated me to maintain a strong academic performance throughout my degree.</p>
+        </div>
+
+        <div class="rewards-card">
+            <span class="reward-badge">💻 Tech Award</span>
+            <h3>Prime Minister's Laptop</h3>
+            <p>Selected for the Government of Pakistan's merit-based Prime Minister's laptop scheme in recognition of high academic achievement during my Bachelor's degree. This award significantly enhanced my technical learning and development.</p>
+        </div>
+
+    </div>
+</section>
+
+
+
+    <section id="contact" class="contact-section">
+    
+    <div class="contact-header">
+        <h2>Get In Touch</h2>
+        <span class="subtitle">Let's connect and collaborate</span>
+    </div>
+
+    <div class="contact-card">
+        <p>Whether you have a project idea, job opportunity, contact me</p>
+        
+        <div class="contact-buttons">
+            <a href="mailto:syedaatherfatima61@gmail.com" class="contact-btn">
+                📧 Email Me
+            </a>
+            
+            <a href="https://github.com/Syeda-Ather" target="_blank" class="contact-btn">
+                🐙 GitHub
+            </a>
+            
+            <a href="https://www.linkedin.com/in/syeda-ather-fatima-261301250?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="contact-btn">
+                💼 LinkedIn
+            </a>
+        </div>
+    </div>
+
+</section>
+
+
+
+    <footer>Syeda Ather Fatima</footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
