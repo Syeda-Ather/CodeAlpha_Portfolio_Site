@@ -1,8 +1,8 @@
-// Mobile menu ko open/close karne ka function
+// Function to open/close mobile menu
 function toggleMenu() {
     let navLinks = document.getElementById("navLinks");
     
-    // Agar screen mobile size (768px se choti) hai tabhi active class toggle karein
+    // or mobile screen (768px or small), active class must toggle. 
     if (window.innerWidth <= 768) {
         navLinks.classList.toggle("active");
     }
